@@ -85,5 +85,5 @@ expander_bar.markdown("""
 chart = alt.Chart(data).mark_circle().encode(
     x = 'Devices', y='Price',tooltip =['Devices', 'Price']
 )
-st.write("New title")
+st.write("How the Price is affected by the number of Devices.")
 st.altair_chart(chart, use_container_width=True)
