@@ -22,7 +22,7 @@ y = data['Price']
 
 #Sidebar with currency converter
 
-st.sidebar.header('Change Currency')
+st.sidebar.header('The Prediction')
 
 
 #st.write("""
